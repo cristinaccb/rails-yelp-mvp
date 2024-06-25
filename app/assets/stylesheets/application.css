@@ -13,3 +13,54 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #f8f9fa; /* light gray background */
+  color: #333; /* dark gray text for softer appearance */
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #0056b3; /* a deep blue shade */
+}
+
+.btn-primary {
+  background-color: #0056b3; /* consistent with h1 color */
+  border: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h5 {
+  color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border: none;
+}
+
+.card {
+  transition: transform 0.2s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight pop effect on hover */
+}
